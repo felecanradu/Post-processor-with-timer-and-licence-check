@@ -113,14 +113,12 @@ if functions_selection == "y":
                         variants = [line.strip() for line in fobj]
                         fobj.close()
                 
-                        while True:
-                                for i in range (0, elements_functions_list_length):
-                                        for j, line in enumerate(variants):
-                                                if elements_functions_list[i] == str(j+1):
-                                                        fobj = open(functions_list_file, "a")
-                                                        fobj.write(line + "\n")
-                                                        fobj.close()
-                                break
+                        for i in range (0, elements_functions_list_length):
+                                for j, line in enumerate(variants):
+                                        if elements_functions_list[i] == str(j+1):
+                                                fobj = open(functions_list_file, "a")
+                                                fobj.write(line + "\n")
+                                                fobj.close()
                         
                         
                         
@@ -141,16 +139,13 @@ if functions_selection == "y":
                         variants = [line.strip() for line in fobj]
                         fobj.close()
                 
-                        while True:
-                                for i in range (0, elements_functions_list_length):
-                                        for j, line in enumerate(variants):
-                                                if elements_functions_list[i] == str(j+1):
-                                                        fobj = open(functions_list_file, "a")
-                                                        fobj.write(line + "\n")
-                                                        fobj.close()
-                                break
-        
-        
+                        for i in range (0, elements_functions_list_length):
+                                for j, line in enumerate(variants):
+                                        if elements_functions_list[i] == str(j+1):
+                                                fobj = open(functions_list_file, "a")
+                                                fobj.write(line + "\n")
+                                                fobj.close()
+
         
                 if functions_list[k] == "3":
                         intro()
@@ -169,15 +164,13 @@ if functions_selection == "y":
                         variants = [line.strip() for line in fobj]
                         fobj.close()
                 
-                        while True:
-                                for i in range (0, elements_functions_list_length):
-                                        for j, line in enumerate(variants):
-                                                if elements_functions_list[i] == str(j+1):
-                                                        fobj = open(functions_list_file, "a")
-                                                        fobj.write(line + "\n")
-                                                        fobj.close()
-                                break
 
+                        for i in range (0, elements_functions_list_length):
+                                for j, line in enumerate(variants):
+                                        if elements_functions_list[i] == str(j+1):
+                                                fobj = open(functions_list_file, "a")
+                                                fobj.write(line + "\n")
+                                                fobj.close()
 
                 if functions_list[k] == "4":
                         intro()
@@ -196,15 +189,12 @@ if functions_selection == "y":
                         variants = [line.strip() for line in fobj]
                         fobj.close()
                 
-                        while True:
-                                for i in range (0, elements_functions_list_length):
-                                        for j, line in enumerate(variants):
-                                                if elements_functions_list[i] == str(j+1):
-                                                        fobj = open(functions_list_file, "a")
-                                                        fobj.write(line + "\n")
-                                                        fobj.close()
-                                break
-
+                        for i in range (0, elements_functions_list_length):
+                                for j, line in enumerate(variants):
+                                        if elements_functions_list[i] == str(j+1):
+                                                fobj = open(functions_list_file, "a")
+                                                fobj.write(line + "\n")
+                                                fobj.close()
 
                 if functions_list[k] == "5":
                         intro()
@@ -223,14 +213,12 @@ if functions_selection == "y":
                         variants = [line.strip() for line in fobj]
                         fobj.close()
                 
-                        while True:
-                                for i in range (0, elements_functions_list_length):
-                                        for j, line in enumerate(variants):
-                                                if elements_functions_list[i] == str(j+1):
-                                                        fobj = open(functions_list_file, "a")
-                                                        fobj.write(line + "\n")
-                                                        fobj.close()
-                                break
+                        for i in range (0, elements_functions_list_length):
+                                for j, line in enumerate(variants):
+                                        if elements_functions_list[i] == str(j+1):
+                                                fobj = open(functions_list_file, "a")
+                                                fobj.write(line + "\n")
+                                                fobj.close()
         
                 if functions_list[k] == "6":
                         intro()
@@ -249,14 +237,12 @@ if functions_selection == "y":
                         variants = [line.strip() for line in fobj]
                         fobj.close()
                 
-                        while True:
-                                for i in range (0, elements_functions_list_length):
-                                        for j, line in enumerate(variants):
-                                                if elements_functions_list[i] == str(j+1):
-                                                        fobj = open(functions_list_file, "a")
-                                                        fobj.write(line + "\n")
-                                                        fobj.close()
-                                break
+                        for i in range (0, elements_functions_list_length):
+                                for j, line in enumerate(variants):
+                                        if elements_functions_list[i] == str(j+1):
+                                                fobj = open(functions_list_file, "a")
+                                                fobj.write(line + "\n")
+                                                fobj.close()
 
                 if functions_list[k] == "7":
                         intro()
@@ -275,14 +261,12 @@ if functions_selection == "y":
                         variants = [line.strip() for line in fobj]
                         fobj.close()
                 
-                        while True:
-                                for i in range (0, elements_functions_list_length):
-                                        for j, line in enumerate(variants):
-                                                if elements_functions_list[i] == str(j+1):
-                                                        fobj = open(functions_list_file, "a")
-                                                        fobj.write(line + "\n")
-                                                        fobj.close()
-                                break
+                        for i in range (0, elements_functions_list_length):
+                                for j, line in enumerate(variants):
+                                        if elements_functions_list[i] == str(j+1):
+                                                fobj = open(functions_list_file, "a")
+                                                fobj.write(line + "\n")
+                                                fobj.close()
 
                 if functions_list[k] == "8":
                         intro()
@@ -301,14 +285,12 @@ if functions_selection == "y":
                         variants = [line.strip() for line in fobj]
                         fobj.close()
                 
-                        while True:
-                                for i in range (0, elements_functions_list_length):
-                                        for j, line in enumerate(variants):
-                                                if elements_functions_list[i] == str(j+1):
-                                                        fobj = open(functions_list_file, "a")
-                                                        fobj.write(line + "\n")
-                                                        fobj.close()
-                                break
+                        for i in range (0, elements_functions_list_length):
+                                for j, line in enumerate(variants):
+                                        if elements_functions_list[i] == str(j+1):
+                                                fobj = open(functions_list_file, "a")
+                                                fobj.write(line + "\n")
+                                                fobj.close()
 
 runs_directory = fnmatch.filter(os.listdir("."), "AU*")
 runs = [line.strip() for line in runs_directory]
@@ -401,13 +383,11 @@ def Animator_start():
                 exists = os.path.isfile(home + "/done")
                 if exists == True:
                         break
-                        sys.exit(0)
                 else:
                         print "No licenses available. We'll try again in 5 seconds..."
                         time.sleep(5)
                         os.system(a4_start)
-                        sys.exit(0)
-
+                        
 
 if timer_cue == "y":
 
